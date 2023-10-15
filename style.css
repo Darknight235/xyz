@@ -1,0 +1,110 @@
+body, ul, li, h1, h2, a{
+    margin: 0;
+    padding: 0;
+
+ }
+div
+{
+    background-color: rgb(131, 34, 223);
+}
+h2{
+   
+}
+.banner
+{
+    position: relative;
+}
+ .banner img{
+   
+    max-width: 100%;
+    top: 5;
+ }
+ .banner .welcome
+ {
+   
+    background-color: rgb(152, 25, 220);
+    color: rgb(243, 243, 184);
+    position: absolute;
+    left: 0;
+    top: 30%;
+
+ }
+ header{
+    background-color:rgb(255,169,67) ;
+    
+    text-align: center;
+    padding: 20px;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    top: 0;
+    left: 0;
+ }
+ header h1{
+       color: white;
+       border: 8px solid rgb(235, 230, 220);
+       padding 6px 12px;
+       display: inline-block;
+       border-radius: 10px;
+
+ }
+ nav{
+    background-color:  rgb(199, 166, 252);
+    padding: 20px;
+    position: sticky;
+    top: 90px;
+ }
+ nav li{
+    width: 25%;
+    display: inline-block;
+    font-size:  25px;
+ }
+ nav ul{
+    white-space: nowrap;
+    max-width: 1200px;
+    margin: 0 auto;
+ }
+ nav li a{
+    text-decoration: underline;
+    color: rgb(130, 23, 121);
+ }
+ main{
+    max-width: 100%;
+    width: 1200px;
+      margin: 80px auto;
+      padding: 0 40px ;
+      
+}
+article h2{
+    color: black ;
+    font-size: 50px;
+    
+    
+    
+}
+p{
+    font-size: large;
+    
+    border: 5px solid rgb(144, 78, 250);
+}
+ .join{
+    margin: 70px auto;
+    padding : 0 30px;
+    background-color:rgb(199, 166, 252) ;
+    text-align: center;
+    font-size: 40px;
+}
+.img {
+    text-align: center;
+    margin: 80px 0;
+    bottom: 100;
+}
+.img li{
+    display: inline-block;
+   
+
+}
+.img li img{
+    max-width: 100%;
+    bottom: 10px;
+}
